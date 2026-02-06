@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', 'Public Sans', 'Lexend', sans-serif;
+}
+
+.sidebar-active {
+  background-color: #197fe6;
+  color: white !important;
+}
+
+.sidebar-active .material-symbols-outlined {
+  color: white !important;
+}
